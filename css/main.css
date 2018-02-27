@@ -2,3 +2,38 @@
 
 }
 
+nav {
+	text-align: center;
+	
+}
+li {
+	display: inline-block;
+	margin: 0 10px;
+	padding: 10px;
+	transition: 0.5s ease;
+
+}
+
+li:hover {
+	background-color: blue;
+	border: 10px solid yellow;
+}
+li:hover a { 
+	color: white;
+	font-size: 35px;
+}
+
+div {
+	text-align: center;
+}
+.round button {
+	border: none;
+	background-color: red;
+	color: white;
+	padding: 30px 50px;
+	transition: 0.5s ease;
+}
+
+button:hover {
+	background-color: teal;
+}
